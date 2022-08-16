@@ -1,0 +1,89 @@
+/* Global */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Configuração das fontes das letras*/
+
+h1, h2, h3, .price{
+    font-family: 'Roboto Serif' serif;
+    text-transform: uppercase;
+    color: #2D2C2A;
+
+}
+
+/* parte do body */
+body{
+    background-color: #FFEDD5;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+/* parte do cabeçalho (header) */
+
+header h1 {
+    margin-bottom: 4px;
+    font-size: 28px;
+}
+header h1 span{
+    color: #995000;
+
+}
+
+header h2 span{
+    color: #995000;
+}
+header{
+    padding: 32px 0;
+    text-align: center;
+}
+
+header, section{
+    max-width: 500px;
+    margin: 0 auto;
+}
+/* sessões */
+section{
+    margin-bottom: 30px;
+}
+section h2{
+    background-color: #fed7aa;
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 18px;
+
+    margin-bottom: 25px;
+
+}
+
+/* Parte das listas */
+
+ul li{
+    margin-bottom: 16px;
+    display: flex;
+}
+
+li .details{
+    max-width: 260px;
+}
+.details h3 {
+    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 19px;
+}
+.details p{
+    color: rgba(0, 0, 0, 0.6);
+}
+
+/* Parte do rodapé */
+.rodape{
+    font-size: 18px;
+}
+section footer{
+    background-color: rgb(156, 121, 74);
+    margin-top: 10px;
+    text-align: center;
+}
