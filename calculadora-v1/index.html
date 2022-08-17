@@ -1,0 +1,95 @@
+ <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Digital</title>
+    
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="folhadeestilo.css/bootstrap.min.css">
+    <link rel="stylesheet" href="folhadeestilo.css/index.css">
+
+</head>
+ <body>
+  <!--  cabeçalho do site em bootstrap -->
+    <header class="p-3 mb-3 border-bottom">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="index.html" class="nav-link px-2 link-secondary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Calculos básicos</font></font></a></li>
+              <li><a href="historico.html" class="nav-link px-2 link-dark"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Histórico</font></font></a></li>
+            </ul>
+         </div>
+        </div>
+      </header>
+
+      <!--Conteudo do site -->
+
+      <div class="">
+        <h1 class="title">Calculadora Digital</h1>
+
+              <p>Olá sejam muito bem vindos a calculadora Digital online.</p>
+
+            <h2 class="title2">Calculos básicos</h2>
+
+              <p> Faça seus calculos de forma pratrica e rápida.</p>
+      </div>
+      
+      <div class="container">
+        <label for="form-label" class="form-label"> Cadastre seu nome.</label>
+        <input type="email" class="form-control" id="form-label" placeholder="Nome:">
+      </div>
+
+     <!-- Corpo da calculadora  -->
+    <div class="main">
+      
+        <form action="#" name="Calculator">
+
+            <input type="text" class="text maincolor" name="text1" desabled>
+            <input type="button" class="btn btn btn-lg" name="botao12" value="C" onclick="location.reload()"> <br>
+            
+            <input type="button" class="btn btn btn-lg" name="botao9" value="9" onclick="displaynum(botao9.value)">
+            <input type="button" class="btn btn btn-lg" name="botao8" value="8" onclick="displaynum(botao8.value)"> 
+            <input type="button" class="btn btn btn-lg" name="botao7" value="7" onclick="displaynum(botao7.value)">
+            <input type="button" class="btn btn btn-lg" name="adcaobotao" value="+" onclick="displaynum(adcaobotao.value)"> <br>
+
+            <input type="button" class="btn btn btn-lg" name="botao6" value="6" onclick="displaynum(botao6.value)"> 
+            <input type="button" class="btn btn btn-lg" name="botao5" value="5" onclick="displaynum(botao5.value)"> 
+            <input type="button" class="btn btn btn-lg" name="botao4" value="4" onclick="displaynum(botao4.value)">
+            <input type="button" class="btn btn btn-lg" name="subbotao" value="-" onclick="displaynum(subbotao.value)"> <br>
+
+            <input type="button" class="btn btn btn-lg" name="botao3" value="3" onclick="displaynum(botao3.value)"> 
+            <input type="button" class="btn btn btn-lg" name="botao2" value="2" onclick="displaynum(botao2.value)"> 
+            <input type="button" class="btn btn btn-lg" name="botao1" value="1" onclick="displaynum(botao1.value)"> 
+            <input type="button" class="btn btn btn-lg" name="botaomult" value="*" onclick="displaynum(botaomult.value)"> <br>
+
+            <input type="button" class="btn btn btn-lg" name="botao0" value="0" onclick="displaynum(botao0.value)"> 
+            <input type="button" class="btn btn btn-lg" name="botaodivisao" value="/" onclick="displaynum(botaodivisao.value)">
+            <input type="button" class="btn btn btn-lg" name="botaoponto" value="." onclick="displaynum(botaoponto.value)">
+            <input type="button" class="btn btn btn-lg" name="botao-igual" value="=" onclick="text1.value=eval(text1.value)"> 
+           
+
+        </form>
+    </div>
+     <!-- rodapé do site-->
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 2022 Rebeca Silva , São Paulo-SP</font></font></span>
+        </div>
+    
+      </footer>
+
+    <!-- Pacote JavaScript com Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="js/db.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/calculadora.js"></script>
+
+</body>
+</html>

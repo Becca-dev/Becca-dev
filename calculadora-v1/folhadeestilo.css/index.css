@@ -1,0 +1,44 @@
+
+body {
+    text-align: center;
+    background-color:rgba(245, 245, 245, 0.726)
+
+}
+
+.title {
+    color: rgb(0, 0, 0);
+}
+nav {
+
+    border-bottom: 2px;
+    color: rgb(0, 0, 0);
+   
+}
+ h1 {
+    margin: 10px 10px;
+     color: rgb(17, 15, 16);
+
+ }
+header {
+    margin: 0% 0%;
+    padding: 18px 18px;
+    background-color: rgb(204, 164, 241);
+}
+input.text{
+    padding: 10px;
+}
+
+input.btn {
+
+
+    color: rgb(135, 41, 223);
+    padding: 25px;
+    outline: none;
+    font-size: 20px;
+    border-radius: 5%;
+    
+   
+}
+.textarea {
+    margin: 50px;
+}
