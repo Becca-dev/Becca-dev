@@ -1,7 +1,7 @@
 
-# Hello i am is Rebeca
+# Hello Devs
 
-- I have a degree in Systems Analysis and Development, and I am on a continuous journey of studies to become a web developer
+- I am is Rebeca, I have a degree in Systems Analysis and Development, and I am on a continuous journey of studies to become a web developer
 
 ## My soft skills
 
